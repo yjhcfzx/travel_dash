@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body
+{font-size:16px;}
+.my-circle{border-radius:50%;}
+.my-red{background:red;color:#fff;}
+.my-error{color:red;}
+.my-orange{background:#ee7337;color:#fff;}
+.my-blue{background:#337ab7;color:#fff;}
+.center{margin:0px auto;text-align:center;}
+.bussiniess-list > div{text-align:center;margin:10px 0px;}
+.bussiniess-list .my-circle{padding:20%;text-align:center;display:inline-block;}
+.container{width:100%;padding-left:0;padding-right:0;}
+.navbar li a
+{
+	padding:5px 10px;
+	font-size:1.2em;
+}
+.my-pills .dropdown-menu>li>a
+{
+	 background-color: #eab020 !important;
+    color: #fff;
+}
+.my-pills .dropdown-menu>li>a:hover{
+	background-color: #ee7337 !important;
+	background: #ee7337 !important;
+    color: #fff;
+}
+.navbar li a:hover,.navbar li.active a
+{
+	background-color: #ee7337 !important;
+    color: #fff !important;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px;
+    background-color: #eab020 !important;
+    color: #fff;
+    
+}
+.nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    font-weight:bold;
+  
+}
+
+.nav-pills > li{margin:0px 1%;}
+
+.my-navbar .nav-pills > li:hover > a, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    
+    background-color: #ee7337 !important;
+    color: #fff;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg); /* Standard syntax */
+}
+
+.my-pills 
+{
+	border-bottom:1px solid #aaa;
+	background:#eee;
+}
+
+	
+.my-top-nav{
+	position:relative;
+	height:46px;
+}
+.my-pills-overlay
+{
+	background:#FFF;
+	opacity:0.5;
+	width:100%;
+	height:46px;
+	position:fixed;
+	top:0px;
+}
+.page-content
+{
+	position:relative;
+	top:65px;
+	padding-bottom:4%;
+}
+.my-bg {
+
+	}
+.my-bg img{width:100%;}
+.page-section{ margin:10px; padding:10px;}
+#footer{padding:1% 0px;text-align:center;background:#FFF;border-top:1px solid #eee;}
+.form-group
+{
+	padding:10px;
+}
+.list-item {margin-top:10px;}
+.panel-body .description .row{margin:3px 0px;}
+.product-item .panel-body .img img{width:100%;}
+.list-main .row{margin:8px 0px;min-height:30px;}
+.navbar li .account-operations a {
+font-size: 0.7em;
+padding: 0 !important;
+}
+fieldset{margin-bottom:10px;}
+.hand:hover{cursor:pointer;cursor:hand;}
+.control-group .controls{margin-bottom:5px;}
+.control-group .controls input, .control-group .controls textarea{min-width:50%;}
+}
+.imgRow{margin-bottom:10px;}
+.imgRow input[type=file] {
+ display: inline-block; 
+}
+.my-disabled{
+	background:#ccc;
+}
